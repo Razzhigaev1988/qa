@@ -5,3 +5,9 @@ git commit -m "first commit"
 git branch -M main
 git remote add origin https://github.com/Razzhigaev1988/boom.git
 git push -u origin main
+
+
+ Change a remote Git repository
+We can change the remote repository by using git remote set-url command:
+
+$ git remote set-url origin git@your.git.repo.example.com:user/repository2.git
